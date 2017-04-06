@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    The future home of Irongecko
                 </div>
 
                 <div class="links">
