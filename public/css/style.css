@@ -1,1 +1,66 @@
 /* YOUR CUSTOM STYLES */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+
+body {
+    background-color: #ededed;
+}
+
+#slide-out {
+    background-image: none;
+     background-color: #b8b7af;
+    
+}
+
+#slide-out > div.sidenav-bg.mask-strong {
+   background-color: #b8b7af;
+}
+
+.mainbody {
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+high-light {
+    color: Red;
+}
+
+.page-title {
+    
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+ h1.title-first-line {
+   font-family: 'Libre Baskerville', serif;
+/*  font-family: 'Dancing Script', cursive;*/
+    
+    font-size: 8em; 
+    
+    
+}
+
+ h1.title-second-line {
+   font-family: 'Libre Baskerville', serif;
+/*   font-family: 'Dancing Script', cursive;*/
+    
+    font-size: 4em; 
+    
+/*    padding-left: 90px;*/
+    
+}
+
+#logo {
+    padding-top: 55px;
+    padding-left: 0px;
+    float: left;
+    opacity: 0.7;
+}
+
+.card {
+    background-color: #f7f7f7;
+    
+}
