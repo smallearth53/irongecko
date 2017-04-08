@@ -25,7 +25,7 @@
 
         <!--First column-->
         <div class="col-md-8">
-            <form>
+            <form method='POST' action='/contact/submit'>
                 <!--First row-->
                 <div class="row">
                     <!--First column-->
@@ -74,11 +74,14 @@
                     </div>
                 </div>
                 <!--/.Third row-->
+                
+                 <div class="center-on-small-only">
+                     <button type='submit' class='btn btn-ins'>Submit</button>
+            </div>
+                    
             </form>
 
-            <div class="center-on-small-only">
-                <a class="btn btn-ins">Send</a>
-            </div>
+           
         </div>
         <!--.First column-->
 

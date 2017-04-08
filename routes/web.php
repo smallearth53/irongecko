@@ -15,9 +15,11 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+
+
+Route::get('/contact', 'ContactController@displayForm');
+
+Route::post('/contact/submit', 'ContactController@submitForm');
 
 Auth::routes();
 
