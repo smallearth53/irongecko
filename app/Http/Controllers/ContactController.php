@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\Contact;
+use App\Mail\WelcomeAgain;
 
 class ContactController extends Controller
 {
@@ -16,7 +16,7 @@ class ContactController extends Controller
         
         
         
-        \Mail::to(request()->email)->send(new Contact);
+        \Mail::to(request()->email)->send(new WelcomeAgain);
         
         
     }
