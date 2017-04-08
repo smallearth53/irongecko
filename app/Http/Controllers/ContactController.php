@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Mail\Contact;
 
 class ContactController extends Controller
 {
@@ -12,6 +13,11 @@ class ContactController extends Controller
     }
     
     public function submitForm() {
-        return 'submitted';
+        
+        
+        
+        \Mail::to(request()->email)->send(new Contact);
+        
+        
     }
 }

@@ -26,7 +26,7 @@
 
                 </div>
                 <div class='col-3'>
-                    <img id='logo' class='img-fluid text-center' src='/img/gecko.png' width='250px'/>
+                    <img id='logo' class='img-fluid text-center wow fadeIn' src='/img/gecko.png' width='250px'/>
                 </div>
                 
             </div>
