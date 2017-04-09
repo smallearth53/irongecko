@@ -13,7 +13,11 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/mdb.css" rel="stylesheet">
+        <link href="css/style.css?v1" rel="stylesheet">
         <!-- Styles -->
         <style>
             html, body {
@@ -47,9 +51,9 @@
                 font-size: 64px;
                 padding-bottom: 50px;
             }
-            
-            
-            
+
+
+
 
             @media(max-width:767px){
                 /*                .title {
@@ -66,26 +70,26 @@
                     margin-bottom: 0px;
                     opacity: 0.7;
                 }
-                
+
                 #image {
                     width: 300px;
                 }
-                                #content {
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                /* bring your own prefixes */
-                transform: translate(-50%, -50%);
-            }
+                #content {
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    /* bring your own prefixes */
+                    transform: translate(-50%, -50%);
+                }
             }
             @media(min-width:768px){
-                                 #content {
-                position: fixed;
-                top: 50%;
-                left: 50%;
-                /* bring your own prefixes */
-                transform: translate(-50%, -50%);
-            }
+                #content {
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    /* bring your own prefixes */
+                    transform: translate(-50%, -50%);
+                }
             }
             @media(min-width:992px){
 
@@ -94,7 +98,7 @@
 
             }
 
-           
+
 
 
 
@@ -109,7 +113,7 @@
 
                 <div id='content'>
                     <div>
-                        <img id='image' src="{{asset('img/skyline.png')}}">
+                        <img class='wow FadeIn' id='image' src="{{asset('img/skyline.png')}}">
                     </div>
 
                     <div class="title">
@@ -126,6 +130,17 @@
             </div>
         </div>
 
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/tether.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <script>
+new WOW().init();
+        </script>
     </body>
 </html>
 
