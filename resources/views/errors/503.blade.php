@@ -113,10 +113,11 @@
 
                 <div id='content'>
                     <div>
-                        <img class='wow FadeIn' id='image' src="{{asset('img/skyline.png')}}">
+                        <img class='wow fadeInDown' id='image' src="{{asset('img/skyline4.png')}}" width='600px'>
                     </div>
+                    <br />
 
-                    <div class="title">
+                    <div class="title wow fadeInUp">
                         Irongecko Productions<br/>
                         <p class='subtext' style='font-size: 0.5em;'>Will soon be in Town<p>
 
