@@ -68,7 +68,7 @@
                     padding-right: 2px;
                     padding-bottom: 0px;
                     margin-bottom: 0px;
-                    opacity: 0.7;
+                    
                 }
 
                 #image {
