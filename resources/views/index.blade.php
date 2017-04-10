@@ -23,8 +23,8 @@
                     <h1 class="title-second-line text-center">Which Stands <high-light>Out</high-light></h1>
 
                 </div>
-                <div class='col-3'>
-                    <img id='logo' class='img-fluid text-center wow fadeIn' data-wow-delay="0.1s" src='/img/gecko.png' width='250px'/>
+                <div class='col-12 text-center'>
+                    <img id='logo' class='img-fluid mx-auto d-block wow fadeIn' data-wow-delay="0.1s" src='/img/gecko.png' width='250px'/>
                 </div>
 
             </div>
@@ -36,12 +36,12 @@
 
 
         <!--Section: Features v.1-->
-        <section class="section feature-box wow fadeIn mt-6">
+        <section class="section feature-box wow fadeIn mt-2">
 
             <!--Section heading-->
 
             <!--Section sescription-->
-            <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+            <!--<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>-->
 
             <!--First row-->
             <div class="row features-big mt-6">

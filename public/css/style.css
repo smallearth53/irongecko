@@ -3,9 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
 
 body {
-   
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #slide-out {
@@ -19,7 +23,7 @@ body {
 }
 
 .mainbody {
-    font-family: 'Libre Baskerville', serif;
+    
      background-color: #ededed;
 
 }
@@ -54,10 +58,12 @@ high-light {
     
 }
 
+
 #logo {
     padding-top: 55px;
     padding-left: 0px;
-    float: left;
+    float: none;
+   
 /*    opacity: 0.7;*/
 }
 
@@ -68,3 +74,10 @@ high-light {
 .belowfold {
     background-color: #fff;
 }
+
+nav {
+    font-family:  'Raleway', sans-serif;
+    
+}
+
+
