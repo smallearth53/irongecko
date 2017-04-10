@@ -9,15 +9,13 @@
 @section('content')
 
 
-
+<div class="container-fluid mainbody">
 <div class="container mainbody">
-    <div class="row mt-5">
-        <div class="col">               
+    <div class="row mt-1">
+        
 
-        </div>
-    
 
-        <section class="page-title">
+        <section class="page-title mt-6">
             <div class='row'>
 
                 <div class='col'>
@@ -28,61 +26,65 @@
                 <div class='col-3'>
                     <img id='logo' class='img-fluid text-center wow fadeIn' data-wow-delay="0.1s" src='/img/gecko.png' width='250px'/>
                 </div>
-                
+
             </div>
 
 
         </section>
 
-   
 
-          
-<!--Section: Features v.1-->
-<section class="section feature-box wow fadeIn mt-6">
 
-    <!--Section heading-->
-   
-    <!--Section sescription-->
-    <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
 
-    <!--First row-->
-    <div class="row features-big mt-6">
-        <!--First column-->
-        <div class="col-md-4 mb-r">
-            <i class="fa fa-html5" aria-hidden="true"></i>
-            <h4 class="feature-title">Elegant</h4>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-        </div>
-        <!--/First column-->
+        <!--Section: Features v.1-->
+        <section class="section feature-box wow fadeIn mt-6">
 
-        <!--Second column-->
-        <div class="col-md-4 mb-r">
-            <i class="fa fa-css3" aria-hidden="true"></i>
-            <h4 class="feature-title">Responsive</h4>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-        </div>
-        <!--/Second column-->
+            <!--Section heading-->
 
-        <!--Third column-->
-        <div class="col-md-4 mb-r">
-            <i class="fa fa-th-list" aria-hidden="true"></i>
-            <h4 class="feature-title">Well Designed</h4>
-            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
-        </div>
-        <!--/Third column-->
+            <!--Section sescription-->
+            <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+
+            <!--First row-->
+            <div class="row features-big mt-6">
+                <!--First column-->
+                <div class="col-md-4 mb-r">
+                    <i class="fa fa-html5" aria-hidden="true"></i>
+                    <h4 class="feature-title">Elegant</h4>
+                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                </div>
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-md-4 mb-r">
+                    <i class="fa fa-css3" aria-hidden="true"></i>
+                    <h4 class="feature-title">Responsive</h4>
+                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                </div>
+                <!--/Second column-->
+
+                <!--Third column-->
+                <div class="col-md-4 mb-r">
+                    <i class="fa fa-th-list" aria-hidden="true"></i>
+                    <h4 class="feature-title">Well Designed</h4>
+                    <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
+                </div>
+                <!--/Third column-->
+            </div>
+            <!--/First row-->
+
+        </section>
+        <!--/Section: Features v.1-->
+
     </div>
-    <!--/First row-->
-
-</section>
-<!--/Section: Features v.1-->
+</div>
+</div>
 
 
-      
-        
-        
+<div class="container-fluid belowfold mt-4">   
+    <div class="container">
+
         <section>
             <div class="row">
-                <div class="col">
+                <div class="col mb-4">
 
                     <!--Card-->
                     <div class="card card-cascade">
@@ -100,7 +102,7 @@
                         <div class="card-block text-center">
                             <!--Title-->
                             <h4 class="card-title"><strong>Innovation</strong></h4>
-                            
+
 
                             <p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
                             </p>
@@ -117,7 +119,7 @@
 
                     </div>
                 </div>
-                    <div class="col">
+                <div class="col">
 
                     <!--Card-->
                     <div class="card card-cascade">
@@ -135,7 +137,7 @@
                         <div class="card-block text-center">
                             <!--Title-->
                             <h4 class="card-title"><strong>Creativity</strong></h4>
-                            
+
 
                             <p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
                             </p>
@@ -151,8 +153,8 @@
                         <!--/.Card content-->
 
                     </div>
-                    </div>
-                    <div class="col">
+                </div>
+                <div class="col">
 
                     <!--Card-->
                     <div class="card card-cascade">
@@ -170,7 +172,7 @@
                         <div class="card-block text-center">
                             <!--Title-->
                             <h4 class="card-title"><strong>Technology</strong></h4>
-                            
+
 
                             <p class="card-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.
                             </p>
@@ -186,14 +188,17 @@
                         <!--/.Card content-->
 
                     </div>
-                    
-                </div>
-               
-            </div>
-            
-        </section>
 
+                </div>
+
+            </div>
+
+        </section>
+    </div>
 </div>
+
+<div class="container">
+
 
         <div class="row mt-2">
         </div>
@@ -289,159 +294,161 @@
         </section>
         <!--/Section: Testimonials v.3-->
 
-<!--Section: Pricing v.1-->
-<section class="section">
+        <!--Section: Pricing v.1-->
+        <section class="section">
 
-    <!--Section heading-->
-    <h1 class="section-heading">Our pricing plans v.1</h1>
-    <!--Section description-->
-    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
+            <!--Section heading-->
+            <h1 class="section-heading">Our pricing plans v.1</h1>
+            <!--Section description-->
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. Quia, minima?</p>
 
-    <!--First row-->
-    <div class="row">
+            <!--First row-->
+            <div class="row">
 
-        <!--First column-->
-        <div class="col-lg-4 col-md-12 mb-r">
+                <!--First column-->
+                <div class="col-lg-4 col-md-12 mb-r">
 
-            <!--Pricing card-->
-            <div class="card pricing-card">
-                <!--Price-->
-                <div class="price header blue">
-                    <h1>10</h1>
-                    <div class="version">
-                        <h5>Basic</h5>
+                    <!--Pricing card-->
+                    <div class="card pricing-card">
+                        <!--Price-->
+                        <div class="price header blue">
+                            <h1>10</h1>
+                            <div class="version">
+                                <h5>Basic</h5>
+                            </div>
+                        </div>
+                        <!--/.Price-->
+
+                        <!--Features-->
+                        <div class="card-block striped">
+                            <ul>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 20 GB Of Storage</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 2 Email Accounts</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-times"></i> 24h Tech Support</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-times"></i> 300 GB Bandwidth</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-times"></i> User Management </p>
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-primary">Buy now</button>
+                        </div>
+                        <!--/.Features-->
+
                     </div>
-                </div>
-                <!--/.Price-->
+                    <!--/.Pricing card-->
 
-                <!--Features-->
-                <div class="card-block striped">
-                    <ul>
-                        <li>
-                            <p><i class="fa fa-check"></i> 20 GB Of Storage</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-check"></i> 2 Email Accounts</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-times"></i> 24h Tech Support</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-times"></i> 300 GB Bandwidth</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-times"></i> User Management </p>
-                        </li>
-                    </ul>
-
-                    <button class="btn btn-primary">Buy now</button>
                 </div>
-                <!--/.Features-->
+                <!--/First column-->
+
+                <!--Second column-->
+                <div class="col-lg-4 col-md-6 mb-r">
+
+                    <!--Pricing card-->
+                    <div class="card pricing-card">
+                        <!--Price-->
+                        <div class="price header indigo">
+                            <h1>20</h1>
+                            <div class="version">
+                                <h5>Pro</h5>
+                            </div>
+                        </div>
+                        <!--/.Price-->
+
+                        <!--Features-->
+                        <div class="card-block striped">
+                            <ul>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 20 GB Of Storage</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 4 Email Accounts</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 24h Tech Support</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-times"></i> 300 GB Bandwidth</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-times"></i> User Management </p>
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-primary">Buy now</button>
+                        </div>
+                        <!--/.Features-->
+
+                    </div>
+                    <!--/.Pricing card-->
+
+                </div>
+                <!--/Second column-->
+
+                <!--Third column-->
+                <div class="col-lg-4 col-md-6 mb-r">
+                    <!--Pricing card-->
+                    <div class="card pricing-card">
+                        <!--Price-->
+                        <div class="price header deep-purple">
+                            <h1>30</h1>
+                            <div class="version">
+                                <h5>Enterprise</h5>
+                            </div>
+                        </div>
+                        <!--/.Price-->
+
+                        <!--Features-->
+                        <div class="card-block striped">
+                            <ul>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 30 GB Of Storage</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 5 Email Accounts</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 24h Tech Support</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-check"></i> 300 GB Bandwidth</p>
+                                </li>
+                                <li>
+                                    <p><i class="fa fa-check"></i> User Management </p>
+                                </li>
+                            </ul>
+
+                            <button class="btn btn-primary">Buy now</button>
+                        </div>
+                        <!--/.Features-->
+
+                    </div>
+                    <!--/.Pricing card-->
+                </div>
+                <!--/Third column-->
 
             </div>
-            <!--/.Pricing card-->
+            <!--/First row-->
 
+        </section>
+        <!--/Section: Pricing v.1-->
         </div>
-        <!--/First column-->
-
-        <!--Second column-->
-        <div class="col-lg-4 col-md-6 mb-r">
-
-            <!--Pricing card-->
-            <div class="card pricing-card">
-                <!--Price-->
-                <div class="price header indigo">
-                    <h1>20</h1>
-                    <div class="version">
-                        <h5>Pro</h5>
-                    </div>
-                </div>
-                <!--/.Price-->
-
-                <!--Features-->
-                <div class="card-block striped">
-                    <ul>
-                        <li>
-                            <p><i class="fa fa-check"></i> 20 GB Of Storage</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-check"></i> 4 Email Accounts</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-check"></i> 24h Tech Support</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-times"></i> 300 GB Bandwidth</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-times"></i> User Management </p>
-                        </li>
-                    </ul>
-
-                    <button class="btn btn-primary">Buy now</button>
-                </div>
-                <!--/.Features-->
-
-            </div>
-            <!--/.Pricing card-->
-
-        </div>
-        <!--/Second column-->
-
-        <!--Third column-->
-        <div class="col-lg-4 col-md-6 mb-r">
-            <!--Pricing card-->
-            <div class="card pricing-card">
-                <!--Price-->
-                <div class="price header deep-purple">
-                    <h1>30</h1>
-                    <div class="version">
-                        <h5>Enterprise</h5>
-                    </div>
-                </div>
-                <!--/.Price-->
-
-                <!--Features-->
-                <div class="card-block striped">
-                    <ul>
-                        <li>
-                            <p><i class="fa fa-check"></i> 30 GB Of Storage</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-check"></i> 5 Email Accounts</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-check"></i> 24h Tech Support</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-check"></i> 300 GB Bandwidth</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-check"></i> User Management </p>
-                        </li>
-                    </ul>
-
-                    <button class="btn btn-primary">Buy now</button>
-                </div>
-                <!--/.Features-->
-
-            </div>
-            <!--/.Pricing card-->
-        </div>
-        <!--/Third column-->
-
-    </div>
-    <!--/First row-->
-
-</section>
-<!--/Section: Pricing v.1-->
 
 
 
-    </div>
 
-</div>
 
+
+
+<
 
 
 

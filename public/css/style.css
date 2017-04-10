@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya');
 
 body {
-    background-color: #ededed;
+   
 }
 
 #slide-out {
@@ -20,6 +20,7 @@ body {
 
 .mainbody {
     font-family: 'Libre Baskerville', serif;
+     background-color: #ededed;
 
 }
 
@@ -64,31 +65,6 @@ high-light {
     background-color: #f7f7f7;
     
 }
-
-
-/*Parallax section*/
-        #section-1 {
-            z-index: 1;
-            color: #fff;
-            height: 100vh;
-        }
-        #section-1 .row {
-            position: fixed;
-        }
-        /*Parallax background*/
-        #section-1 .parallax-layer-back {
-            background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(2).jpg")no-repeat center center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
-        /*Section with dummy content*/
-        #section-2 {
-            z-index: 2;
-            position: relative;
-            background: #fff;
-            width: 100%;
-        }
-        
-/*End of parallax*/
+.belowfold {
+    background-color: #fff;
+}
