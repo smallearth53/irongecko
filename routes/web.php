@@ -17,9 +17,11 @@ Route::get('/', function () {
 
 
 
-Route::get('/contact', 'ContactController@displayForm');
+Route::get('/contact', 'ContactsController@displayForm');
 
-Route::post('/contact/submit', 'ContactController@submitForm');
+Route::get('/contact/list', 'ContactsController@returnContacts');
+
+Route::post('/contact/submit', 'ContactsController@submitForm');
 
 Auth::routes();
 

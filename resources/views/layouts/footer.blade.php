@@ -30,7 +30,12 @@
     var xHighlight = document.createElement('high-light');
 </script>
 
+<!--Include vue2.js and axios-->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue"></script>
 
+
+<script src='js/vue-apps/app.js'></script>
 
 </body>
 </html>

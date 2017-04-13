@@ -19,7 +19,7 @@
     <body>
 
         <img src="http://irongecko.co.za/img/gecko.png" width="200px">
-            Welcome, {{ $contact['name']  }}
+            Welcome, {{ $contact['firstName']  }}
 
     </body>
 
